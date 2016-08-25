@@ -1,8 +1,6 @@
-# generator-polymer-init-custom-build
+# generator-polymer-init-i18n-starter-kit
 
-[![Build Status](https://travis-ci.org/PolymerElements/generator-polymer-init-custom-build.svg?branch=eslint-travis)](https://travis-ci.org/PolymerElements/generator-polymer-init-custom-build)
-
-This template is a starting point for building apps using Polymer Starter Kit
+This template is a starting point for building i18n-ready apps using [I18n-ready Polymer Starter Kit](https://github.com/t2ym/polymer-starter-kit-i18n)
 with a custom gulp process leveraging 
 [polymer-build](https://github.com/Polymer/polymer-build), the library 
 powering [Polymer CLI](https://github.com/Polymer/polymer-cli).
@@ -18,7 +16,7 @@ and generator-polymer-init-custom-build using
 (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
     npm install -g polymer-cli
-    npm install -g generator-polymer-init-custom-build
+    npm install -g generator-polymer-init-i18n-starter-kit
 
 ##### Initialize project from template
 
@@ -26,7 +24,7 @@ Generate your new project using `polymer init`:
 
     mkdir my-app
     cd my-app
-    polymer init custom-build
+    polymer init i18n-starter-kit
 
 ### Start the development server
 

@@ -15,16 +15,10 @@ const yeoman = require('yeoman-generator');
 
 module.exports = yeoman.Base.extend({
   writing: function () {
-    this.sourceRoot(path.join(path.dirname(this.resolved), 'polymer-starter-kit'));
+    this.sourceRoot(path.join(path.dirname(this.resolved), 'polymer-starter-kit-i18n'));
     this.fs.copy([
       this.templatePath(),
       '!**/{sw-precache-config.js}'
-    ], this.destinationPath());
-
-    this.sourceRoot(path.join(path.dirname(this.resolved)));
-    this.fs.copy([
-      this.templatePath('gulp-tasks/**/*'),
-      this.templatePath('{gulpfile.js,package.json}')
     ], this.destinationPath());
   },
 

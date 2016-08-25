@@ -1,7 +1,7 @@
 {
-  "name": "generator-polymer-init-custom-build",
+  "name": "generator-polymer-init-i18n-starter-kit",
   "version": "1.0.0",
-  "description": "A starting point for building apps using polymer-build",
+  "description": "A starting point for building i18n-ready apps using polymer-build",
   "files": [
     "generators"
   ],
@@ -25,7 +25,7 @@
     "gulp-plumber": "^1.0.0",
     "gulp-nsp": "^2.1.0"
   },
-  "repository": "/generator-polymer-init-custom-build",
+  "repository": "/generator-polymer-init-i18n-starter-kit",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"
